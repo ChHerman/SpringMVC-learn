@@ -1,4 +1,4 @@
-package com.hc.springmvc;
+package com.hc.springmvc.hello;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

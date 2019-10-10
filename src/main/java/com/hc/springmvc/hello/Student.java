@@ -1,4 +1,4 @@
-package com.hc.springmvc;
+package com.hc.springmvc.hello;
 
 public class Student {
     private Integer age;

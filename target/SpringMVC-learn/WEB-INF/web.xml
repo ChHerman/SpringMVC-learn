@@ -3,13 +3,33 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
-  <servlet>
+  <!--hello setting-->
+<!--  <servlet>
     <servlet-name>HelloWeb</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
     <servlet-name>HelloWeb</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>-->
+  <!--staticpage setting-->
+<!--  <servlet>
+    <servlet-name>StaticPages</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StaticPages</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>-->
+  <servlet>
+    <servlet-name>Password</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Password</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
 </web-app>
